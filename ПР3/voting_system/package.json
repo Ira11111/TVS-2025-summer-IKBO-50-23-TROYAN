@@ -1,0 +1,21 @@
+{
+  "name": "test3pr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:tdd": "jest test/voting_system.tdd.test.js",
+    "test:atdd": "jest test/voting_system.atdd.test.js",
+    "test:sdd": "jest test/voting_system.sdd.test.js",
+    "test:bdd":  "cucumber-js --require features/**/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "chai": "^6.2.0",
+    "cucumber-js": "^1.0.0",
+    "jest": "^30.2.0"
+  }
+}
